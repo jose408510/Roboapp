@@ -5,7 +5,13 @@
  <h2>Technologies Used</h2>
  <li>React</li>
  <li>Redux</li>
- 
+ <li>HTML5</li>
+ <li>CSS3</li>
+
+
+ <h2>APIs</h2>
+ <li>RoboHash</li>
+ <li>JsonPlaceholder</li>
 
 <h4>Getting Started</h4>
 <h4>Clone the repo to your local directory</h4>
