@@ -2,7 +2,10 @@
   "name": "roboapp",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://jose408510.github.io/Roboapp",
   "dependencies": {
+    "gh-pages": "^2.0.1",
+    "install": "^0.12.2",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-redux": "^5.0.7",
@@ -13,9 +16,15 @@
     "tachyons": "^4.11.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.6.0"
   }
 }
